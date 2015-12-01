@@ -11,7 +11,17 @@
 
 - (BOOL)stringIsPalindrome:(NSString *)string {
     
-    NSString *spaceless = [string stringByReplacingOccurrencesOfString:@" "withString:@""];
+    NSArray *punctuations = @[ @".", @",", @"!", @"?", @":", @";"];
+    
+    NSString *withoutPunctuation = [string copy];
+    
+    for (NSUInteger i = 0; i < [punctuations count]; i++) {
+    
+        NSString *punctuation = punctuations[i];
+        withoutPunctuation = [withoutPunctuation stringByReplacingOccurrencesOfString:punctuation withString:@""];
+    }
+    
+    NSString *spaceless = [withoutPunctuation stringByReplacingOccurrencesOfString:@" "withString:@""];
     NSString *lowercase = [spaceless lowercaseString];
     NSString *reverse = [self stringByReversingString:lowercase];
     BOOL stringIsEqualToReverse = [lowercase isEqualToString:reverse];
