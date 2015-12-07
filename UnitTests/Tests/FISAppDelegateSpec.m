@@ -26,10 +26,10 @@ describe(@"FISAppDelegate", ^{
         });
         
         it(@"does not remove capitalization or punctuation when reversing a string containing a sentence", ^{
-            NSString *papayaWar = @"No sir! Away! A papaya war is on.";
+            NSString *papaya = @"No sir! Away! A papaya war is on.";
             NSString *reverse = @".no si raw ayapap A !yawA !ris oN";
             
-            expect([appDelegate stringByReversingString:papayaWar]).to.equal(reverse);
+            expect([appDelegate stringByReversingString:papaya]).to.equal(reverse);
         });
     });
     
