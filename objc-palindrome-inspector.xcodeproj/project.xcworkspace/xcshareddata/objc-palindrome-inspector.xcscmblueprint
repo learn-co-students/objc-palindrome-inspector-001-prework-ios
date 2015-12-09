@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D133897C4C6C682E2E006C5A5D210ED1308A3888",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8249E415C0975FFB5C73E01C9BBCC1E21BAC46BF" : 0,
+    "D133897C4C6C682E2E006C5A5D210ED1308A3888" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F14D157A-C4DB-4830-B479-0ED1786841C1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8249E415C0975FFB5C73E01C9BBCC1E21BAC46BF" : "",
+    "D133897C4C6C682E2E006C5A5D210ED1308A3888" : "objc-palindrome-inspector-001-prework-ios\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "objc-palindrome-inspector",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "objc-palindrome-inspector.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:mvargas2193\/learnerrors.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8249E415C0975FFB5C73E01C9BBCC1E21BAC46BF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:mvargas2193\/objc-palindrome-inspector-001-prework-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D133897C4C6C682E2E006C5A5D210ED1308A3888"
+    }
+  ]
+}
