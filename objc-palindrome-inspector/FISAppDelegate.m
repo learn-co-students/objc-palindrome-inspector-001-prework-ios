@@ -21,6 +21,21 @@
     NSString *reversedString = [self stringByReversingString:lowercaseString];
     BOOL isPalindrome = [reversedString isEqualToString:lowercaseString];
     return isPalindrome;
+    
+    // Alternative Method
+    
+//    NSMutableCharacterSet *charactersToTrim = [[NSCharacterSet whitespaceCharacterSet] mutableCopy];
+//    [charactersToTrim formUnionWithCharacterSet:[NSCharacterSet punctuationCharacterSet]];
+//    NSString *convertedString = [[[string componentsSeparatedByCharactersInSet:charactersToTrim] componentsJoinedByString:@""] lowercaseString];
+//    NSUInteger length = [convertedString length];
+//    
+//    for (NSUInteger i = 0; i < ceilf(length/2.0f); i++) {
+//        if ([convertedString characterAtIndex:i] != [convertedString characterAtIndex:length-i-1]) {
+//            return NO;
+//        }
+//    }
+//    
+//    return YES;
 }
 
 - (NSString *)stringByReversingString:(NSString *)string {
