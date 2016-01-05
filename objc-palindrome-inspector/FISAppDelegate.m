@@ -11,7 +11,9 @@
 
 - (BOOL)stringIsPalindrome:(NSString *)string {
     
-    return NO;
+    NSString *reversedString = [self stringByReversingString:string];
+    BOOL isPalindrome = [reversedString isEqualToString:string];
+    return isPalindrome;
 }
 
 - (NSString *)stringByReversingString:(NSString *)string {
