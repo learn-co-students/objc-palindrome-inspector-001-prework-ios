@@ -11,7 +11,8 @@
 
 - (BOOL)stringIsPalindrome:(NSString *)string {
     
-    NSString *lowercaseString = [string lowercaseString];
+    NSString *spacelessString = [string stringByReplacingOccurrencesOfString:@" " withString:@""];
+    NSString *lowercaseString = [spacelessString lowercaseString];
     NSString *reversedString = [self stringByReversingString:lowercaseString];
     BOOL isPalindrome = [reversedString isEqualToString:lowercaseString];
     return isPalindrome;
