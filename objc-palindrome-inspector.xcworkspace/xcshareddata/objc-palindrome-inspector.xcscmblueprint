@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D133897C4C6C682E2E006C5A5D210ED1308A3888",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8AAAAF381249D2661D87EF15E06486453244B0CF" : 0,
+    "D133897C4C6C682E2E006C5A5D210ED1308A3888" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BFC1EBD5-C986-424A-8878-309068D8BAD2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8AAAAF381249D2661D87EF15E06486453244B0CF" : "",
+    "D133897C4C6C682E2E006C5A5D210ED1308A3888" : "objc-palindrome-inspector-001-prework-ios\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "objc-palindrome-inspector",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "objc-palindrome-inspector.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/SunFloweri\/objc-palindrome-detector-001-prework-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8AAAAF381249D2661D87EF15E06486453244B0CF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/SunFloweri\/objc-palindrome-inspector-001-prework-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D133897C4C6C682E2E006C5A5D210ED1308A3888"
+    }
+  ]
+}
