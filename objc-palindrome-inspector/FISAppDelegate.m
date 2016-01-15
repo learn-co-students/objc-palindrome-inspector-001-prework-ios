@@ -20,20 +20,19 @@
 -(BOOL)stringIsPalindrome:(NSString *)string {
     
     NSArray *punctuations = @[ @".", @",", @"!", @"?", @":", @";" ];
-    NSString *withoutpunctuation = [string copy];
+    NSString *withoutPunctuation = [string copy];
     
-    for NSUInteger(i = 0; i < [punctuations count]; i++) {
+    for (NSUInteger i = 0; i < [punctuations count]; i++) {
         NSString *punctuation = punctuations[i];
-        withoutpunctuation = [withoutPunctuation
-                              stringByReplacingOccurrencesOfString:punctuation withString:@""];
-        
+        withoutPunctuation= [withoutPunctuation stringByReplacingOccurrencesOfString:punctuation withString:@""];
     }
     
-    NSString *spaceless = [withoutPunctuation stringByReplacingOccurrencesOfString:@" " withString:@""];
+     NSString *spaceless = [withoutPunctuation stringByReplacingOccurrencesOfString:@" " withString:@""];
     
     //create new NSString variable called reverse 2 capture method call of stringByReversingString on self with the string lowercase argument variable submitted as the method argument:
     //Bool variable called stringIsEqualToReverse 2 capture return of method call isEqualToString on string with reverse submitted as arg
     NSString *lowercase = [spaceless lowercaseString]; //make spaceless string lowercase
+    
     NSString *reverse = [self stringByReversingString:lowercase]; //reverse string
     
     BOOL stringIsEqualToReverse = [lowercase isEqualToString:reverse]; //check if original = reversed string
