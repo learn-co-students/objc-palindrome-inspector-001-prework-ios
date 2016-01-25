@@ -23,19 +23,16 @@
     
     for (NSUInteger i = 0; i < [punctuations count]; i++) {
         NSString *punctuation = punctuations[i];
-        
         withoutPunctuation = [withoutPunctuation stringByReplacingOccurrencesOfString:punctuation withString:@""];
     }
     
-    NSString *spaceless = [withoutPunctuation stringByReplacingOccurrencesOfString:@" " withString:@""];
+    NSString *withoutSpaces = [withoutPunctuation stringByReplacingOccurrencesOfString:@" " withString:@""];
+    NSString *lowercased = [withoutSpaces lowercaseString];
+    NSString *reversedString = [self stringByReversingString:lowercased];
+    BOOL stringDidReverse = [lowercased isEqualToString:reversedString];
     
-    NSString *lowercase = [spaceless lowercaseString];
+    return stringDidReverse;
     
-    NSString *reverse = [self stringByReversingString:lowercase];
-    
-    BOOL stringIsEqualToReverse = [lowercase isEqualToString:reverse];
-    
-    return stringIsEqualToReverse;
 }
 
 -(NSString *)stringByReversingString:(NSString *)string {
