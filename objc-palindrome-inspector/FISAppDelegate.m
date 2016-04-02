@@ -14,6 +14,41 @@
     BOOL palindromeIsPalindrome = [self stringIsPalindrome:palindrome];
     NSLog(@"%d : %@", palindromeIsPalindrome, palindrome);
     
+    NSString *bob = @"Bob";
+    BOOL bobIsPalindrome = [self stringIsPalindrome:bob];
+    NSLog(@"%d : %@", bobIsPalindrome, bob);
+    
+    NSString *kanakanak = @"Kanakanak";
+    BOOL kanakanakIsPalindrome = [self stringIsPalindrome:kanakanak];
+    NSLog(@"%d : %@", kanakanakIsPalindrome, kanakanak);
+    
+    NSString *aibohphobia = @"Aibohphobia";
+    BOOL aibohphobiaIsPalindrome = [self stringIsPalindrome:aibohphobia];
+    NSLog(@"%d : %@", aibohphobiaIsPalindrome, aibohphobia);
+    
+    NSString *notAPalindrome = @"this is not a palindrome";
+    BOOL notAPalindromeIsPalindrome = [self stringIsPalindrome:notAPalindrome];
+    NSLog(@"%d : %@", notAPalindromeIsPalindrome, notAPalindrome);
+    
+    NSString *neverOddorEven = @"never odd or even";
+    BOOL neverOddOrEvenIsPalindrome = [self stringIsPalindrome:neverOddorEven];
+    NSLog(@"%d : %@", neverOddOrEvenIsPalindrome, neverOddorEven);
+    
+    NSString *iPreferPi = @"I prefer pi";
+    BOOL iPreferPiIsPalindrome = [self stringIsPalindrome:iPreferPi];
+    NSLog(@"%d : %@", iPreferPiIsPalindrome, iPreferPi);
+    
+    NSString *fleeToMe = @"Flee to me, remote elf.";
+    BOOL fleeToMeIsPalindrome = [self stringIsPalindrome:fleeToMe];
+    NSLog(@"%d : %@", fleeToMeIsPalindrome, fleeToMe);
+    
+    NSString *norma = @"Norma is as selfless as I am, Ron.";
+    BOOL normaIsPalindrome = [self stringIsPalindrome:norma];
+    NSLog(@"%d : %@", normaIsPalindrome, norma);
+    
+    NSString *papayaWar = @"No sir! Away! A papaya war is on.";
+    BOOL papayaWarIsPalindrome = [self stringIsPalindrome:papayaWar];
+    NSLog(@"%d : %@", papayaWarIsPalindrome, papayaWar);
     
     return YES;
 }
