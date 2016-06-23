@@ -55,11 +55,6 @@
     return YES;  //
 }   ///////////////
 
-/**
- 
- * Implement your methods here.
- 
- */
 - (BOOL)stringIsPalindrome:(NSString *)string {
     NSArray *punctuations = @[ @".", @",", @"!", @"?", @":", @";"];
     NSString *withoutPunctuation = [string copy];
