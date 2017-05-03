@@ -12,4 +12,9 @@
  
  */
 
+//my two methods declared stringIsPalindrome and stringByReversingString
+- (BOOL) stringIsPalindrome: (NSString *)string;
+
+- (NSString *) stringByReversingString: (NSString*)string;
+
 @end
